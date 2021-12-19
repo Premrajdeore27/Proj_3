@@ -1,0 +1,202 @@
+.Main{
+    margin-left: -20px;
+    filter: blur(7px);
+  }
+  .container{
+    width: 1485px;
+    height: 150px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    
+  }
+  .box1{
+    width: 240px;
+    height: 150px;
+    font-size: 70px;
+    /* border: 2px solid black; */
+    margin-left:22%;
+  }
+  .box2{
+    margin-left: 26%;
+    width: 300px;
+    height: 150px;
+    /* border: 2px solid red; */
+    margin-top: 90px;
+  }
+  .mid{
+    margin: 90px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .middle{
+    width: 1485px;
+    height: 700px;
+    /* border:2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+  
+  }      
+  .logofafa{
+    font-size:30px;
+    color:red;
+    position: relative;
+    /* float: right; */
+    /* top: -130px; */
+  }
+
+  .box3{
+    margin-left:50px;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px rgb(201, 196, 196);
+    border: 5px solid rgb(250, 121, 121);
+  }
+  .task-title{
+    color: rgb(248, 103, 103);
+    font-size: 27px;
+    text-align: center;
+  
+  }
+  .task-body{
+    color: rgb(241, 99, 99);
+    font-size: 22px;
+    margin: 22px;
+  }
+  .check{
+    font-size: 30px;
+  
+  }
+  .line {
+  border: none;
+  border-top: 1px solid grey;
+  margin-left: 30px;
+  }
+  .add-logo{
+    font-size: 44px;
+  }
+  .addlist{
+    color: black; 
+    font-weight: 100;
+    margin-left: -20px;
+  }
+  .Card-add{
+    color: #f52e27;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #f52e27;
+    border-radius: 12px;
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    padding: 15px;
+    z-index: 3;
+    line-height: 50px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 110px;
+    top: 200px;
+    left: 480px;
+    box-shadow: 10px 10px 10px #aaa7a7;
+}
+  
+  
+  @media screen and (min-width: 359px) and (max-width: 641px) {
+      .Main{
+          margin: 0px;
+          width: auto;
+           } 
+  
+     .container {
+        
+          width: 0px;
+          top: 0px;
+          left: 0px;
+  
+        } 
+        .middle {
+          width: 300px;
+          height: 450px;
+          /* border: 2px solid blue; */
+          display: flex;
+          flex-wrap: wrap;
+      } 
+        .add{
+          left: 500px;
+          /* margin-top: 0px; */
+        }
+      .add-logo {
+        /* float: right; */
+        margin-top: -120px;
+        margin-left: 270px;
+          /* margin-left: 200px;
+          margin-top: 10px;
+          font-size: 20px; */
+          /* margin-top: 60px; */
+        }
+        .logofafa{
+          font-size:30px;
+          color:red;
+          position: relative;
+          margin-top: 0px;
+          margin-left: 20px;
+          /* float: right; */
+          /* top: -130px; */
+        }
+        .box2{
+          margin-top: 40px;
+          margin-left: 5%;
+        }
+        .box3{
+          margin-left:0px;
+          width: 340px;
+          height: 60px;
+          border-radius: 15px;
+          box-shadow: 8px 8px 8px rgb(201, 196, 196);
+          border: 5px solid rgb(119, 116, 116);
+        }
+        .box1{
+          width: 180px;
+          height: 120px;
+          font-size: 45px;
+          /* border: 2px solid black; */
+          margin-left:0%;
+        }
+        .task-title{
+          color: black;
+          font-size: 34px;
+          text-align: left;
+          margin: 10px;
+        
+        }
+        .addlist{
+          display: none;
+
+        }
+        
+        .task-body{
+         visibility: hidden;
+        }
+        .check{
+          visibility: hidden;
+        }
+        .line {
+         visibility: hidden;
+          }
+        .mid {
+            margin: 0px;
+        }
+        .Card-add{
+
+            height: 180px;
+            width: 200px;
+            z-index: 4;
+            line-height: 50px;
+            position: absolute;
+            margin-left: -415px;
+            margin-top: 100px;
+     
+        }
+        }    

@@ -1,0 +1,212 @@
+
+.Main{
+    margin-left: -20px;
+  }
+  /* .container{
+    width: 1485px;
+    height: 150px;
+    // border: 2px solid black; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    
+  } */
+.container{
+    width: 600px;
+    height: 900px;
+    /* border: 2px solid black; */
+    margin-left: 35%;
+
+}
+.head{
+    width: 600px;
+    height: 150px;
+    /* border: 2px solid red; */
+}
+.heading{
+    color: black;
+    font-size:55px;
+    text-align: center;
+}
+.Middle{
+    width: 600px;
+    height: 800px;
+    /* border: 2px solid red; */
+}
+.add{
+    /* align-items: center; */
+    text-align: center;
+}
+.card{
+    width: 350px;
+    height: 475px;
+    border: 8px solid rgb(247, 96, 96);
+    text-align: center;
+    margin-left: 115px;
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 12px rgb(192, 183, 183);
+}
+.title-trip {
+    text-decoration: line-through;
+    font-size: 55px;
+    font-weight: bolder;
+}
+.title-trip-space {
+    text-decoration: line-through;
+    font-weight: 100;
+    color: gray;
+}
+.task-title{
+    color: rgb(252, 74, 74);
+    font-weight: 40%;
+}
+.check{
+    font-size: 35px;
+    position: relative;
+    left: -30px;
+
+}
+.check-box{
+   width: 21px;
+   height: 21px;
+}
+.task-body{
+    color: red;
+}
+.add-logo2{
+   position: absolute;
+   /* bottom: 200px; */
+   margin-top: 150px;
+   margin-left: 285px;
+}
+
+@media screen and (min-width: 760px) and (max-width: 900px) {
+    .container{
+        /* width: 700px;
+        height:850px; */
+        /* border: 2px solid black; */
+        /* margin-left:150px; */
+        margin-left: 80px;
+    }
+    .head{
+        width: 650px;
+        height: 100px;
+        /* margin: 40px; */
+        /* border: 2px solid red; */
+    }
+    .heading{
+        color: black;
+        font-size:40px;
+        text-align: left;
+
+    } 
+    .Middle{
+        width: 450px;
+        height: 500px;
+        /* border: 2px solid red; */
+    }
+    .add{
+        /* align-items: center; */
+        text-align: center;
+        
+
+    }
+    .card{
+        width: 335px;
+        height: 450px;
+        border: 8px solid rgb(247, 96, 96);
+        text-align: center;
+        margin-left: 50px;
+        font-size: 35px;
+        border-radius: 20px;
+        box-shadow: 8px 8px 12px rgb(192, 183, 183);
+    }
+    .Step{
+         /* margin-left: 25%; */
+    }
+    .add-logo2{
+        position: absolute;
+        /* bottom: 660px; */
+        margin-top: 130px;
+        margin-left: 278px;
+     }
+     .check{
+        font-size: 31px;
+        position: relative;
+        left: -30px;
+    
+    }
+}
+@media screen and (min-width: 359px) and (max-width: 641px) {
+    .container{
+         width: 400px; 
+        height:450px; 
+        /* border: 2px solid black; */
+        /* margin-left: 130px; */
+        margin-left:-15px;
+    }
+    .head{
+        width: 650px;
+        height: 100px;
+        /* margin: 40px; */
+        /* border: 2px solid red; */
+    }
+    .heading{
+        color: black;
+        font-size:35px;
+        text-align: left;
+
+    } 
+    .Middle{
+        width: 400px;
+        height: 450px;
+        /* border: 2px solid red; */
+    }
+    .add{
+        /* align-items: center; */
+        text-align: center;
+        
+
+    }
+    .card{
+        width: 300px;
+        height: 400px;
+        border: 8px solid rgb(247, 96, 96);
+        text-align: center;
+        margin-left: 30px;
+        font-size: 20px;
+        border-radius: 20px;
+        box-shadow: 8px 8px 12px rgb(192, 183, 183);
+        display: inline;
+        position: absolute;
+    }
+    .Step{
+         margin-left: -10%;
+         font-size: 20px;
+    }
+    .add-logo2{
+        position: absolute;
+        /* bottom: 715px; */
+        margin-top: 180px;
+        margin-left: 250px;
+     }
+     .task-title{
+        color: rgb(252, 74, 74);
+        font-weight: 40%;
+        margin: 20px;
+    }
+    .title-trip {
+        text-decoration: line-through;
+        font-size: 55px;
+        font-weight: bolder;
+        margin-left: -22px;
+        margin-right: -10px;
+    }
+    .check{
+        font-size: 25px;
+        position: relative;
+        left: -30px;
+    
+    }
+}
